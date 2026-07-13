@@ -1,0 +1,83 @@
+{
+  "Bad Welding": {
+    "severity": "Medium",
+    "cause": "Incorrect welding parameters or poor welding technique.",
+    "repair": [
+      "Remove the defective weld.",
+      "Prepare the joint properly.",
+      "Reweld using correct current and speed."
+    ],
+    "prevention": [
+      "Maintain correct welding parameters.",
+      "Inspect weld quality regularly."
+    ]
+  },
+
+  "Good Welding": {
+    "severity": "None",
+    "cause": "No defect detected.",
+    "repair": [
+      "No repair required."
+    ],
+    "prevention": [
+      "Continue following standard welding procedures."
+    ]
+  },
+
+  "Crack": {
+    "severity": "High",
+    "cause": "Rapid cooling,+ excessive stress, or improper filler material.",
+    "repair": [
+      "Grind out the crack.",
+      "Clean the surface.",
+      "Reweld using proper current."
+    ],
+    "prevention": [
+      "Use proper preheating.",
+      "Reduce cooling rate.",
+      "Use suitable filler material."
+    ]
+  },
+
+  "Porosity": {
+    "severity": "Medium",
+    "cause": "Gas trapped inside the molten weld.",
+    "repair": [
+      "Remove the porous weld.",
+      "Increase shielding gas flow.",
+      "Reweld the joint."
+    ],
+    "prevention": [
+      "Clean the workpiece.",
+      "Use dry electrodes.",
+      "Maintain proper shielding gas."
+    ]
+  },
+
+  "Spatters": {
+    "severity": "Low",
+    "cause": "High current or unstable arc.",
+    "repair": [
+      "Remove spatter using a grinder or wire brush.",
+      "Adjust welding current."
+    ],
+    "prevention": [
+      "Use proper voltage.",
+      "Maintain a stable arc."
+    ]
+  },
+
+  "Excess Reinforcement": {
+    "severity": "Medium",
+    "cause": "Too much filler material or slow travel speed.",
+    "repair": [
+      "Grind excess reinforcement.",
+      "Adjust filler deposition.",
+      "Reweld if necessary."
+    ],
+    "prevention": [
+      "Maintain proper travel speed.",
+      "Use the correct amount of filler metal."
+    ]
+  }
+}
